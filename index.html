@@ -38,7 +38,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="#" class="file_dwnd">
 								<i class="menu_icon"></i>
 								<span class="right_side">
 									СКАЧАТЬ ФАЙЛЫ
@@ -106,55 +106,60 @@
 				<!-- Buttons row -->
 				<div class="buttons_row">
 					<a href="#" class="button">ЛИЧНЫЙ КАБИНЕТ</a>
-					<a href="#" class="button">ПОЖЕРТВОВАНИE</a>
+					<a href="#" class="button donate">ПОЖЕРТВОВАНИE</a>
 				</div>
 			</div>
 			<!-- end of servers block -->
-
+			
+			<div class="h_line"></div>
+			
 			<!-- Twich row -->
 			<div class="twich_row">
-				<a href="#" class="twich_block">
+				<div class="twich_block">
 					<img src="images/twich1.png" alt="">
-				</a>
-				<a href="#" class="twich_block">
+				</div>
+				<div class="twich_block">
 					<img src="images/twich2.png" alt="">
-				</a>
-				<a href="#" class="twich_block">
+				</div>
+				<div class="twich_block">
 					<img src="images/twich3.png" alt="">
-				</a>
+				</div>
 			</div>
 			<!-- end of twich row -->
+			
+			<div class="h_line"></div>
+			
 			<!-- Contents row -->
 			<div class="content_row">
 				<!-- News row -->
 				<div class="news_row">
 					<h2 class="titles">Последние новости</h2>
 					<div class="posts">
-						<a href="#">
+						<div class="posts_content">
 							<img src="images/news_img1.png" alt="">
 							<div class="right_text_side">
 								<h2 class="post_title">Запуск нового High Five x50<span class="date">12.11.2019</span></h2>
 								<p class="post_text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона.</p><p class="post_text">Также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации</p>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="posts">
-						<a href="#">
+						<div class="posts_content">
 							<img src="images/news_img2.png" alt="">
 							<div class="right_text_side">
 								<h2 class="post_title">Запуск нового High Five x50<span class="date">12.11.2019</span></h2>
 								<p class="post_text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона.</p><p class="post_text">Также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации</p>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="posts">
-						<a href="#">
+						<div class="posts_content">
 							<img src="images/news_img3.png" alt="">
 							<div class="right_text_side">
 								<h2 class="post_title">Запуск нового High Five x50<span class="date">12.11.2019</span></h2>
 								<p class="post_text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона.</p><p class="post_text">Также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации</p>
 							</div>
-						</a>
+						</div>
 					</div>
 				</div>
 				<!-- end of news row -->
@@ -240,6 +245,9 @@
 				<!-- themes row -->
 			</div>
 			<!-- end of contents -->
+			
+			<div class="h_line"></div>
+			
 			<!-- Footer -->
 			<footer class="footer" id="footer">
 				<!-- Left block -->
@@ -289,6 +297,56 @@
 	</div>
 	<!-- end of main block -->
 
+	<!-- Modal donate -->
+	<div class="modal_donate">
+		<h3 class="modal_title">ПОЖЕРТВОВАНИЕ</h3>
+		<div class="close_modal"><img src="images/close.png" alt=""></div>
+		<form action="" id="form_donate">
+			<div class="modal_row">
+				<p class="input_pre_text">Введите имя персонажа</p>
+				<input type="text">
+			</div>
+			<div class="modal_row">
+				<p class="input_pre_text">Введите количество монет</p>
+				<input type="text">
+			</div>
+		</form>
+		<div class="bottom_row">
+			<p class="left_text"><span class="white">Внимание!</span> <span class="red">Цена 1 Coin of Luck = 1 рубль!</span> Вы ничего не покупаете, а мы ничего не продаем, Вы помогаете серверу в той мере, в которой он может помочь Вам! Желаем приятной игры на наших серверах!</p>
+			<button class="send_modal" type="send">ПОЖЕРТВОВАТЬ</button>
+		</div>
+	</div>
+	<!-- end of modal donate -->
+	
+	<!-- Modal files -->
+	<div class="modal_files">
+		<h3 class="modal_title">ФАЙЛЫ ДЛЯ ИГРЫ</h3>
+		<div class="close_modal"><img src="images/close.png" alt=""></div>
+		<div class="download_row">
+			<p class="modal_name">Клиент Lineage 2 High Five</p>
+			<p class="modal_text">Скачайте клииент для входа в игру. <span class="white">Размер: 4.7 Gb</span></p>
+			<div class="buttons_row">
+				<a href="#" class="button download_button">СКАЧАТЬ КЛИЕНТ<br><span class="small_text">С САЙТА</span></a>
+				<a href="#" class="button download_button">СКАЧАТЬ КЛИЕНТ<br><span class="small_text">TORRENT</span></a>
+				<a href="#" class="button download_button">СКАЧАТЬ КЛИЕНТ<br><span class="small_text">GOOGLE DISC</span></a>
+			</div>
+		</div>
+		<div class="download_row">
+			<p class="modal_name">Патч Lineage 2 High Five</p>
+			<p class="modal_text">Скачайте и разархивируйте патч в папку с игрой.<span class="white">Размер: 43.2 Mb</span></p>
+			<div class="buttons_row">
+				<a href="#" class="button download_button">СКАЧАТЬ КЛИЕНТ<br><span class="small_text">С САЙТА</span></a>
+				<a href="#" class="button download_button">СКАЧАТЬ КЛИЕНТ<br><span class="small_text">TORRENT</span></a>
+				<a href="#" class="button download_button">СКАЧАТЬ КЛИЕНТ<br><span class="small_text">GOOGLE DISC</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- end of modal files -->
+
+
+
+	<!-- Overlay -->
+	<div id="overlay"></div>
 
 
 
